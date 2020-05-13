@@ -30,6 +30,7 @@ try:
     elif sys.argv[2] == 'admin':
         print(buf['admin']['address']['socket_address']['port_value'])
 
-except :
+except Exception as err:
+    print(err)
     sys.exit()
 

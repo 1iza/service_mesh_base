@@ -24,5 +24,6 @@ try:
     r.close()
     w.close()
 
-except :
+except Exception as err:
+    print(err)
     sys.exit()

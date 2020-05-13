@@ -7,5 +7,6 @@ try:
     buf = json.load(s)
     print(buf['srvname'])
 
-except :
+except Exception as err:
+    print(err)
     sys.exit()
