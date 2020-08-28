@@ -1,1 +1,0 @@
-echo "./envoy -c $INSTALL_PATH/tools/envoy_app.yaml --base-id ${serviceport}"

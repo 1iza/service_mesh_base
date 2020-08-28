@@ -1,1 +1,0 @@
-echo "./checkAgent -appname ${prefix}${servicename} -mode 1 -filewatcher 2 -appport ${serviceport} -interval ${timeinterval} -config $INSTALL_PATH/tools/checkconfig.json -envoyport ${ingressport} -appVersion ${appversion} -testVersion=${testversion} -envoyAdminPort ${adminport}"
